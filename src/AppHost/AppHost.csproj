@@ -6,6 +6,9 @@
     <ProjectReference
       IsAspireProjectResource="true"
       Include="../App/*.csproj" />
+    <ProjectReference
+      IsAspireProjectResource="true"
+      Include="../API/*.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -14,7 +17,6 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <!-- Enable Aspire -->
     <IsAspireHost>true</IsAspireHost>
   </PropertyGroup>
 
